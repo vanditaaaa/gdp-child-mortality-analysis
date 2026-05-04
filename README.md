@@ -1,35 +1,46 @@
-GDP and Child Mortality Analysis
-Objective
+# GDP and Child Mortality Analysis
 
-To examine the association between GDP per capita and child mortality across countries.
+## Objective
+To examine the association between **GDP per capita** and **child mortality** across countries.
 
-Data
+---
 
-Global dataset including:
+## Data
+- Global dataset (2019)
+- Country-level indicators
 
-GDP per capita
-Child mortality rate
-Countries (cross-sectional, 2019)
-Methods
-Data cleaning using R
-Log transformation of GDP
-Linear regression analysis
-Results
-Strong inverse relationship observed
-Higher GDP associated with lower child mortality
-R² ≈ 0.60
-p-value < 0.001 (statistically significant)
-Visualization
+---
 
-Interpretation
+## Methods
+- Data cleaning using **R**
+- Log transformation of GDP
+- Linear regression
 
-Socioeconomic development plays a major role in reducing child mortality, highlighting the importance of economic and structural determinants of health.
+---
 
-Limitation
+## Results
+- Strong inverse relationship
+- **R² ≈ 0.60**
+- **p-value < 0.001**
 
-Cross-sectional analysis; causality cannot be established.
+---
 
-Tools
-R
-ggplot2
-dplyr
+## Visualization
+![Plot](plot.png)
+
+---
+
+## Interpretation
+Higher GDP is associated with lower child mortality, highlighting the role of **socioeconomic determinants of health**.
+
+---
+
+## Limitation
+Cross-sectional study → no causality
+
+---
+
+## Tools
+- R
+- ggplot2
+- dplyr
