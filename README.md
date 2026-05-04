@@ -26,7 +26,9 @@ To examine the association between **GDP per capita** and **child mortality** ac
 ---
 
 ## Visualization
-![Plot](plot.png)
+![GDP vs Child Mortality](GDP vs Child Mortality (1).png)
+![GDP vs Child Mortality](GDP vs Child Mortality (Log Scale) (2).png)
+![GDP vs Child Mortality](Distribution of Child Mortality (3).png)
 
 ---
 
